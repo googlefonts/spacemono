@@ -1,0 +1,8 @@
+ReleaseMode	true
+DoSubroutinization	false
+InputFontPath	./SpaceMono-Regular-BetaSource5.ttf
+OutputFontPath	./SpaceMono-Regular-Beta5.ttf
+FeaturePath	./features
+FontMenuDBPath	../../FontMenuNameDB
+GlyphAliasDBPath	./GlyphOrderAndAliasDB
+kSetfsSelectionBitsOn	[7, 8]

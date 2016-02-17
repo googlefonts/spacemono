@@ -1,0 +1,9 @@
+ReleaseMode	true
+DoSubroutinization	false
+InputFontPath	./spacemono-bold-source.ttf
+OutputFontPath	./SpaceMono-Bold-SourceBeta-testy.ttf
+FeaturePath	./features
+FontMenuDBPath	../../FontMenuNameDB
+GlyphAliasDBPath	./GlyphOrderAndAliasDB
+IsBoldStyle	true
+kSetfsSelectionBitsOn	[7, 8]

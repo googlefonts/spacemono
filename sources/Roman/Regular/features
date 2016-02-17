@@ -1,0 +1,431 @@
+table head {
+    FontRevision 1.004;
+} head;
+
+table BASE {
+    HorizAxis.BaseTagList       ideo  romn;
+    HorizAxis.BaseScriptList    DFLT    romn    -142 0,
+                                latn    romn    -142 0;
+} BASE;
+
+table name {
+    nameid 0 "Copyright 2016 Google Inc. All Rights Reserved.";
+    nameid 0 1 "Copyright 2016 Google Inc. All Rights Reserved.";
+    nameid 7 "Space Mono is a trademark of Google.";
+    nameid 7 1 "Space Mono is a trademark of Google.";
+    nameid 8 "Colophon Foundry";
+    nameid 8 1 "Colophon Foundry";
+    nameid 9 "Colophon Foundry / Benjamin Critton";
+    nameid 9 1 "Colophon Foundry / Benjamin Critton";
+    nameid 11 "www.colophon-foundry.org";
+    nameid 11 1 "www.colophon-foundry.org";
+    nameid 14 "http://scripts.sil.org/OFL";
+    nameid 14 1 "http://scripts.sil.org/OFL";
+} name;
+
+table hhea {
+    Ascender 962;
+    Descender -226;
+    LineGap 0;
+} hhea;
+
+table OS/2 {
+    FSType 0;
+    Panose 2 0 5 9 4 0 0 2 0 4;
+    TypoAscender 962;
+    TypoDescender -226;
+    TypoLineGap 0;
+    winAscent 962;
+    winDescent 226;
+    XHeight 496;
+    CapHeight 700;
+    WeightClass 400;
+    WidthClass 5;
+    Vendor "CF";
+} OS/2;
+
+@frac1=[zero one two three four five six seven eight nine];
+@frac2=[uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 fraction];
+@subs1=[uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@sups1=[uni2070 onesuperior twosuperior threesuperior uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@numr1=[uni2070 onesuperior twosuperior threesuperior uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+@dnom1=[uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+@lnum1=[zero.tosn one.tosn two.tosn three.tosn four.tosn five.tosn six.tosn seven.tosn eight.tosn nine.tosn];
+@case1=[asterisk sterling Euro yen dollar numbersign uni20A1 uni20A4 uni20A6 uni20A7 uni20AB uni20B1 uni20B2 uni20B5 uni20B9 section paragraph dagger daggerdbl];
+@case2=[asterisk.cap sterling.cap Euro.cap yen.cap dollar.cap numbersign.cap uni20A1.cap uni20A4.cap uni20A6.cap uni20A7.cap uni20AB.cap uni20B1.cap uni20B2.cap uni20B5.cap uni20B9.cap section.cap paragraph.cap dagger.cap daggerdbl.cap];
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn NLD ;
+languagesystem latn AZE ;
+languagesystem latn GAG ;
+languagesystem latn TRK ;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+languagesystem latn CAT ;
+languagesystem latn TAT ;
+languagesystem latn CRT ;
+languagesystem latn KAZ ;
+
+
+feature aalt{
+  feature locl;
+  feature frac;
+  feature ss01;
+  feature ss02;
+  feature sups;
+  feature subs;
+  feature sinf;
+  feature numr;
+  feature dnom;
+  feature lnum;
+  feature onum;
+  feature ordn;
+  feature case;
+} aalt;
+
+feature ss01 {
+#Stylistic Set 01
+#Capital Alternates
+  sub B by B.alt;
+  sub D by D.alt;
+  sub J by J.alt;
+  
+  sub uni0243 by uni0243.alt;
+  
+  sub Eth by Eth.alt;
+  sub Dcroat by Dcroat.alt;
+  sub Dcaron by Dcaron.alt;
+  sub uni1E0C by uni1E0C.alt;
+  sub uni1E0E by uni1E0E.alt;
+  
+  sub IJ by IJ.alt;
+  sub IJacute by IJacute.alt;  
+} ss01;
+
+feature ss02 {
+#Stylistic Set 02
+#Lowercase alternates
+  sub a by a.alt;
+  sub agrave by agrave.alt;
+  sub aacute by aacute.alt;
+  sub acircumflex by acircumflex.alt;
+  sub adieresis by adieresis.alt;
+  sub atilde by atilde.alt;
+  sub aring by aring.alt;
+  sub amacron by amacron.alt;
+  sub abreve by abreve.alt;
+  sub aogonek by aogonek.alt;
+  
+  sub uni1EA1 by uni1EA1.alt;
+  sub uni1EA3 by uni1EA3.alt;
+  sub uni1EA5 by uni1EA5.alt; 
+  sub uni1EA7 by uni1EA7.alt;
+  sub uni1EA9 by uni1EA9.alt;
+  sub uni1EAB by uni1EAB.alt;
+  sub uni1EAD by uni1EAD.alt;
+  sub uni1EAF by uni1EAF.alt;
+  sub uni1EB1 by uni1EB1.alt;
+  sub uni1EB3 by uni1EB3.alt; 
+  sub uni1EB5 by uni1EB5.alt;
+  sub uni1EB7 by uni1EB7.alt;
+  
+  sub g by g.alt;
+  sub gcircumflex by gcircumflex.alt;
+  sub gdotaccent by gdotaccent.alt;
+  sub uni0123 by uni0123.alt;
+  sub uni1E21 by uni1E21.alt;
+  
+  sub dotlessi by dotlessi.alt;
+  sub i by i.alt;
+  sub igrave by igrave.alt;
+  sub iacute by iacute.alt;
+  sub icircumflex by icircumflex.alt;
+  sub idieresis by idieresis.alt;
+  sub itilde by itilde.alt;
+  sub imacron by imacron.alt;
+  sub ibreve by ibreve.alt;
+  sub iogonek by iogonek.alt;
+  
+  sub uni1EC9 by uni1EC9.alt;
+  sub uni1ECB by uni1ECB.alt;
+  
+  sub j by j.alt;
+  sub jcircumflex by jcircumflex.alt;
+  
+  sub l by l.alt;
+  sub lslash by lslash.alt;
+  sub lacute by lacute.alt;
+  sub uni013C by uni013C.alt;
+  sub lcaron by lcaron.alt;
+  sub ldot by ldot.alt;
+  sub uni1E37 by uni1E37.alt;
+  sub uni1E39 by uni1E39.alt;
+  sub uni1E3B by uni1E3B.alt;
+  
+  sub r by r.alt;
+  sub racute by racute.alt;
+  sub uni0157 by uni0157.alt;
+  sub rcaron by rcaron.alt;
+  
+  sub uni1E5B by uni1E5B.alt;
+  sub uni1E5D by uni1E5D.alt;
+  sub uni1E5F by uni1E5F.alt;
+  
+  sub y by y.alt;
+  sub yacute by yacute.alt;
+  sub ycircumflex by ycircumflex.alt;
+  sub ydieresis by ydieresis.alt;
+  
+  sub uni1EF3 by uni1EF3.alt;
+  sub uni1EF5 by uni1EF5.alt;
+  sub uni1EF7 by uni1EF7.alt;
+  sub uni1EF9 by uni1EF9.alt;
+} ss02;
+
+feature calt {
+#Contextual Alternates
+#Arrows
+    sub less hyphen by arrowleft;
+    sub bar greater by arrowup;
+    sub hyphen greater by arrowright;
+    sub bar less by arrowdown;
+    sub less backslash by uni2196;  
+    sub slash greater by uni2197;
+    sub backslash greater by uni2198;
+    sub less slash by uni2199;
+} calt;
+
+feature frac { # Fractions
+ # DFLT
+lookup frac12 {
+    ignore sub slash' @frac1 slash;
+    ignore sub slash @frac1 slash';
+    ignore sub slash' @frac1 @frac1 slash;
+    ignore sub slash @frac1 @frac1 slash';
+    sub @frac1 [slash fraction]' @frac1 by [fraction fraction];
+} frac12;
+lookup frac13 {
+
+        sub [zero uni2070 uni2080]' [slash fraction]' [zero uni2070 uni2080]' [zero uni2070 uni2080]' by perthousand;
+        sub [zero uni2070 uni2080]' [slash fraction]' [zero uni2070 uni2080]' by percent;
+        
+        sub [one onesuperior uni2081]' [slash fraction]' [four uni2074 uni2084]' by onequarter;
+        sub [one onesuperior uni2081]' [slash fraction]' [two twosuperior uni2082]' by onehalf;     
+        sub [three threesuperior uni2083]' [slash fraction]' [four uni2074 uni2084]' by threequarters;
+        sub [one onesuperior uni2081]' [slash fraction]' [three threesuperior uni2083]' by onethird;
+        sub [two twosuperior uni2082]' [slash fraction]' [three threesuperior uni2083]' by twothirds;
+        sub [one onesuperior uni2081]' [slash fraction]' [eight uni2078 uni2088]'   by oneeighth;
+        sub [three threesuperior uni2083]' [slash fraction]' [eight uni2078 uni2088]'   by threeeighths;
+        sub [five uni2075 uni2085]' [slash fraction]' [eight uni2078 uni2088]'  by fiveeighths;
+        sub [seven uni2077 uni2087]' [slash fraction]' [eight uni2078 uni2088]' by seveneighths;    
+} frac13;
+lookup frac14 {
+    sub @frac2 @frac1' by [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+} frac14;
+script latn; # Latin
+lookup frac12;
+lookup frac13;
+lookup frac14;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} frac;
+
+feature liga { # Standard Ligatures
+ # DEFAULT
+lookup liga15 {
+    sub f [l l.alt] by fl;
+} liga15;
+lookup liga16 {
+    sub f [i i.alt] by fi;
+} liga16;
+ script latn; # Latin
+lookup liga15;
+lookup liga16;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language TRK ; # Turkish
+ language MOL  exclude_dflt; # Moldavian
+lookup liga16;
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language KAZ ; # Kazakh
+} liga;
+
+feature locl { # Localized Forms
+ script latn; # Latin
+ language NLD  exclude_dflt; # Dutch
+lookup locl11 {
+    sub ij' acutecomb' by ijacute;
+    sub IJ' acutecomb' by IJacute;
+} locl11;
+ language MOL  exclude_dflt; # Moldavian
+    sub [Scedilla uni0162 scedilla uni0163] by [uni0218 uni021A uni0219 uni021B];
+ language ROM  exclude_dflt; # Romanian
+    sub [Scedilla uni0162 scedilla uni0163] by [uni0218 uni021A uni0219 uni021B];
+ language CAT  exclude_dflt; # Catalan
+    sub l periodcentered' l by periodcentered;
+    sub L periodcentered' [L l] by periodcentered;
+} locl;
+
+feature subs { # Subscript
+ # DEFAULT
+    sub @frac1 by @subs1;
+ script latn; # Latin
+    sub @frac1 by @subs1;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} subs;
+
+feature sups { # Superscript
+ # DEFAULT
+    sub @frac1 by @sups1;
+ script latn; # Latin
+    sub @frac1 by @sups1;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} sups;
+
+feature sinf { # Scientific Inferiors
+ # DEFAULT
+    sub @frac1 by @subs1;
+ script latn; # Latin
+    sub @frac1 by @subs1;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} sinf;
+
+feature numr { # Numerators
+ # DEFAULT
+    sub @frac1 by @numr1;
+ script latn; # Latin
+    sub @frac1 by @numr1;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} numr;
+
+feature dnom { # Denominators
+ # DEFAULT
+    sub @frac1 by @dnom1;
+ script latn; # Latin
+    sub @frac1 by @dnom1;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} dnom;
+
+feature onum { # Oldstyle Figures
+ # DEFAULT
+    sub @frac1 by @lnum1;
+ script latn; # Latin
+    sub @frac1 by @lnum1;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} onum;
+
+feature lnum { # Lining Figures
+ # DEFAULT
+    sub @lnum1 by @frac1;
+ script latn; # Latin
+    sub @lnum1 by @frac1;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} lnum;
+
+feature ordn { # Ordinals
+ # DEFAULT
+    sub [a o] by [ordfeminine ordmasculine];
+ script latn; # Latin
+    sub [a o] by [ordfeminine ordmasculine];
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} ordn;
+
+feature case { # Case-Sensitive Forms
+ # DEFAULT
+    sub @case1 by @case2;
+ script latn; # Latin
+    sub @case1 by @case2;
+ language NLD ; # Dutch
+ language AZE ; # Azeri
+ language GAG ; # Gagauz
+ language TRK ; # Turkish
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+ language CAT ; # Catalan
+ language TAT ; # Tatar
+ language CRT ; # Crimean Tatar
+ language KAZ ; # Kazakh
+} case;
