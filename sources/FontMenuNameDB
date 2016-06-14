@@ -4,27 +4,27 @@
 # 	l=Windows_Compatible_MenuName
 # 	m=1,Macintosh_Compatible_MenuName
 
-[SpaceMonoBeta-Regular]
-	f=Space Mono Beta
+[SpaceMono-Regular]
+	f=Space Mono
 	s=Regular
-	l=Space Mono Beta
-	m=1,Space Mono Beta
+	l=Space Mono
+	m=1,Space Mono
 
-#[SpaceMonoBeta-It]
-#	f=Space Mono Beta
-#	s=Italic
-#	l=Space Mono Beta
-#	m=1,Space Mono Beta Italic
+[SpaceMono-Italic]
+	f=Space Mono
+	s=Italic
+	l=Space Mono
+	m=1,Space Mono Italic
 
-[SpaceMonoBeta-Bold]
-	f=Space Mono Beta
+[SpaceMono-Bold]
+	f=Space Mono
 	s=Bold
-	l=Space Mono Beta
-	m=1,Space Mono Beta Bold
+	l=Space Mono
+	m=1,Space Mono Bold
 	
-#[SpaceMonoBeta-BoldIt]
-#	f=Space Mono Beta
-#	s=Bold Italic
-#	l=Space Mono Beta
-#	m=1,Space Mono Beta Bold Italic
+[SpaceMono-BoldItalic]
+	f=Space Mono
+	s=Bold Italic
+	l=Space Mono
+	m=1,Space Mono Bold Italic
 	

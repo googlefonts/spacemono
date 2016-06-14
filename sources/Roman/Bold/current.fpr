@@ -1,7 +1,6 @@
 ReleaseMode	true
-DoSubroutinization	false
-InputFontPath	./spacemono-bold-source.ttf
-OutputFontPath	./SpaceMono-Bold-SourceBeta-testy.ttf
+InputFontPath	./Space-Mono-Bold-source.ttf
+OutputFontPath	./Space-Mono-Bold.ttf
 FeaturePath	./features
 FontMenuDBPath	../../FontMenuNameDB
 GlyphAliasDBPath	./GlyphOrderAndAliasDB

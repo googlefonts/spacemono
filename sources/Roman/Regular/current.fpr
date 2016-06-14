@@ -1,7 +1,6 @@
 ReleaseMode	true
-DoSubroutinization	false
-InputFontPath	./SpaceMono-Regular-BetaSource5.ttf
-OutputFontPath	./SpaceMono-Regular-Beta5.ttf
+InputFontPath	./Space-Mono-Regular-source.ttf
+OutputFontPath	./Space-Mono-Regular.ttf
 FeaturePath	./features
 FontMenuDBPath	../../FontMenuNameDB
 GlyphAliasDBPath	./GlyphOrderAndAliasDB

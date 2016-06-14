@@ -27,7 +27,7 @@ table hhea {
 
 table OS/2 {
     FSType 0;
-    Panose 2 0 5 9 4 0 0 2 0 4;
+    Panose 2 0 8 9 4 0 0 9 0 4;
     TypoAscender 1120;
     TypoDescender -361;
     TypoLineGap 0;
@@ -35,7 +35,7 @@ table OS/2 {
     winDescent 361;
     XHeight 496;
     CapHeight 700;
-    WeightClass 400;
+    WeightClass 700;
     WidthClass 5;
     Vendor "CF";
 } OS/2;

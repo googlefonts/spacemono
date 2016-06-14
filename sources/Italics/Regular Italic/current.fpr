@@ -1,0 +1,8 @@
+ReleaseMode	true
+InputFontPath	./Space-Mono-Regular-Italic-source.ttf
+OutputFontPath	./Space-Mono-Regular-Italic.ttf
+FeaturePath	./features
+FontMenuDBPath	../../FontMenuNameDB
+GlyphAliasDBPath	./GlyphOrderAndAliasDB
+IsItalicStyle	true
+kSetfsSelectionBitsOn	[7, 9]

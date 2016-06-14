@@ -1,12 +1,6 @@
 table head {
-    FontRevision 1.004;
+    FontRevision 1.0;
 } head;
-
-table BASE {
-    HorizAxis.BaseTagList       ideo  romn;
-    HorizAxis.BaseScriptList    DFLT    romn    -142 0,
-                                latn    romn    -142 0;
-} BASE;
 
 table name {
     nameid 0 "Copyright 2016 Google Inc. All Rights Reserved.";
@@ -19,27 +13,29 @@ table name {
     nameid 9 1 "Colophon Foundry / Benjamin Critton";
     nameid 11 "www.colophon-foundry.org";
     nameid 11 1 "www.colophon-foundry.org";
+    nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+    nameid 13 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
     nameid 14 "http://scripts.sil.org/OFL";
     nameid 14 1 "http://scripts.sil.org/OFL";
 } name;
 
 table hhea {
-    Ascender 962;
-    Descender -226;
+    Ascender 1120;
+    Descender -361;
     LineGap 0;
 } hhea;
 
 table OS/2 {
     FSType 0;
-    Panose 2 0 7 9 4 0 0 2 0 4;
-    TypoAscender 962;
-    TypoDescender -226;
+    Panose 2 0 8 9 3 0 0 2 0 4;
+    TypoAscender 1120;
+    TypoDescender -361;
     TypoLineGap 0;
-    winAscent 962;
-    winDescent 226;
+    winAscent 1120;
+    winDescent 361;
     XHeight 496;
     CapHeight 700;
-    WeightClass 800;
+    WeightClass 700;
     WidthClass 5;
     Vendor "CF";
 } OS/2;
@@ -51,8 +47,8 @@ table OS/2 {
 @numr1=[uni2070 onesuperior twosuperior threesuperior uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
 @dnom1=[uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
 @lnum1=[zero.tosn one.tosn two.tosn three.tosn four.tosn five.tosn six.tosn seven.tosn eight.tosn nine.tosn];
-@case1=[asterisk sterling Euro yen dollar numbersign uni20A1 uni20A4 uni20A6 uni20A7 uni20AB uni20B1 uni20B2 uni20B5 uni20B9 section paragraph dagger daggerdbl];
-@case2=[asterisk.cap sterling.cap Euro.cap yen.cap dollar.cap numbersign.cap uni20A1.cap uni20A4.cap uni20A6.cap uni20A7.cap uni20AB.cap uni20B1.cap uni20B2.cap uni20B5.cap uni20B9.cap section.cap paragraph.cap dagger.cap daggerdbl.cap];
+@case1=[asterisk sterling Euro yen dollar numbersign uni20A1 uni20A4 uni20A6 uni20A7 uni20AB uni20B1 uni20B2 uni20B5 uni20B9 section paragraph dagger daggerdbl copyright registered florin at];
+@case2=[asterisk.cap sterling.cap Euro.cap yen.cap dollar.cap numbersign.cap uni20A1.cap uni20A4.cap uni20A6.cap uni20A7.cap uni20AB.cap uni20B1.cap uni20B2.cap uni20B5.cap uni20B9.cap section.cap paragraph.cap dagger.cap daggerdbl.cap copyright.cap registered.cap florin.cap at.cap];
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -87,6 +83,10 @@ feature aalt{
 feature ss01 {
 #Stylistic Set 01
 #Capital Alternates
+  featureNames {
+    name "Uppercase Alternates"; # Windows English
+    name 1 0 0 "Uppercase Alternates"; # Mac English
+  };
   sub B by B.alt;
   sub D by D.alt;
   sub J by J.alt;
@@ -106,6 +106,10 @@ feature ss01 {
 feature ss02 {
 #Stylistic Set 02
 #Lowercase alternates
+  featureNames {
+    name "Lowercase Alternates"; # Windows English
+    name 1 0 0 "Lowercase Alternates"; # Mac English
+  };
   sub a by a.alt;
   sub agrave by agrave.alt;
   sub aacute by aacute.alt;
@@ -113,6 +117,7 @@ feature ss02 {
   sub adieresis by adieresis.alt;
   sub atilde by atilde.alt;
   sub aring by aring.alt;
+  sub uni01CE by uni01CE.alt;
   sub amacron by amacron.alt;
   sub abreve by abreve.alt;
   sub aogonek by aogonek.alt;
@@ -133,8 +138,10 @@ feature ss02 {
   sub g by g.alt;
   sub gcircumflex by gcircumflex.alt;
   sub gdotaccent by gdotaccent.alt;
+  sub gbreve by gbreve.alt;
   sub uni0123 by uni0123.alt;
   sub uni1E21 by uni1E21.alt;
+  sub uni01E7 by uni01E7.alt;
   
   sub dotlessi by dotlessi.alt;
   sub i by i.alt;
@@ -144,6 +151,7 @@ feature ss02 {
   sub idieresis by idieresis.alt;
   sub itilde by itilde.alt;
   sub imacron by imacron.alt;
+  sub uni01D0 by uni01D0.alt;
   sub ibreve by ibreve.alt;
   sub iogonek by iogonek.alt;
   
@@ -185,15 +193,14 @@ feature ss02 {
 
 feature calt {
 #Contextual Alternates
-#Arrows
-    sub less hyphen by arrowleft;
-    sub bar greater by arrowup;
-    sub hyphen greater by arrowright;
-    sub bar less by arrowdown;
-    sub less backslash by uni2196;  
-    sub slash greater by uni2197;
-    sub backslash greater by uni2198;
-    sub less slash by uni2199;
+  sub less hyphen by arrowleft;
+  sub bar greater by arrowup;
+  sub hyphen greater by arrowright;
+  sub bar less by arrowdown;
+  sub less backslash by uni2196;  
+  sub slash greater by uni2197;
+  sub backslash greater by uni2198;
+  sub less slash by uni2199;
 } calt;
 
 feature frac { # Fractions
