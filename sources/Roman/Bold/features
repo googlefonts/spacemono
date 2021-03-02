@@ -1,5 +1,5 @@
 table head {
-    FontRevision 1.0;
+    FontRevision 1.001;
 } head;
 
 table name {
@@ -37,7 +37,7 @@ table OS/2 {
     CapHeight 700;
     WeightClass 700;
     WidthClass 5;
-    Vendor "CF";
+    Vendor "CF  ";
 } OS/2;
 
 @frac1=[zero one two three four five six seven eight nine];
@@ -90,17 +90,17 @@ feature ss01 {
   sub B by B.alt;
   sub D by D.alt;
   sub J by J.alt;
-  
+
   sub uni0243 by uni0243.alt;
-  
+
   sub Eth by Eth.alt;
   sub Dcroat by Dcroat.alt;
   sub Dcaron by Dcaron.alt;
   sub uni1E0C by uni1E0C.alt;
   sub uni1E0E by uni1E0E.alt;
-  
+
   sub IJ by IJ.alt;
-  sub IJacute by IJacute.alt;  
+  sub IJacute by IJacute.alt;
 } ss01;
 
 feature ss02 {
@@ -121,20 +121,20 @@ feature ss02 {
   sub amacron by amacron.alt;
   sub abreve by abreve.alt;
   sub aogonek by aogonek.alt;
-  
+
   sub uni1EA1 by uni1EA1.alt;
   sub uni1EA3 by uni1EA3.alt;
-  sub uni1EA5 by uni1EA5.alt; 
+  sub uni1EA5 by uni1EA5.alt;
   sub uni1EA7 by uni1EA7.alt;
   sub uni1EA9 by uni1EA9.alt;
   sub uni1EAB by uni1EAB.alt;
   sub uni1EAD by uni1EAD.alt;
   sub uni1EAF by uni1EAF.alt;
   sub uni1EB1 by uni1EB1.alt;
-  sub uni1EB3 by uni1EB3.alt; 
+  sub uni1EB3 by uni1EB3.alt;
   sub uni1EB5 by uni1EB5.alt;
   sub uni1EB7 by uni1EB7.alt;
-  
+
   sub g by g.alt;
   sub gcircumflex by gcircumflex.alt;
   sub gdotaccent by gdotaccent.alt;
@@ -142,7 +142,7 @@ feature ss02 {
   sub uni0123 by uni0123.alt;
   sub uni1E21 by uni1E21.alt;
   sub uni01E7 by uni01E7.alt;
-  
+
   sub dotlessi by dotlessi.alt;
   sub i by i.alt;
   sub igrave by igrave.alt;
@@ -154,13 +154,13 @@ feature ss02 {
   sub uni01D0 by uni01D0.alt;
   sub ibreve by ibreve.alt;
   sub iogonek by iogonek.alt;
-  
+
   sub uni1EC9 by uni1EC9.alt;
   sub uni1ECB by uni1ECB.alt;
-  
+
   sub j by j.alt;
   sub jcircumflex by jcircumflex.alt;
-  
+
   sub l by l.alt;
   sub lslash by lslash.alt;
   sub lacute by lacute.alt;
@@ -170,38 +170,43 @@ feature ss02 {
   sub uni1E37 by uni1E37.alt;
   sub uni1E39 by uni1E39.alt;
   sub uni1E3B by uni1E3B.alt;
-  
+
   sub r by r.alt;
   sub racute by racute.alt;
   sub uni0157 by uni0157.alt;
   sub rcaron by rcaron.alt;
-  
+
   sub uni1E5B by uni1E5B.alt;
   sub uni1E5D by uni1E5D.alt;
   sub uni1E5F by uni1E5F.alt;
-  
+
   sub y by y.alt;
   sub yacute by yacute.alt;
   sub ycircumflex by ycircumflex.alt;
   sub ydieresis by ydieresis.alt;
-  
+
   sub uni1EF3 by uni1EF3.alt;
   sub uni1EF5 by uni1EF5.alt;
   sub uni1EF7 by uni1EF7.alt;
   sub uni1EF9 by uni1EF9.alt;
 } ss02;
 
-feature calt {
-#Contextual Alternates
+feature ss03 {
+#Stylistic Set 03
+#Arrow alternates
+  featureNames {
+    name "Arrow Alternates"; # Windows English
+    name 1 0 0 "Arrow Alternates"; # Mac English
+  };
   sub less hyphen by arrowleft;
   sub bar greater by arrowup;
   sub hyphen greater by arrowright;
   sub bar less by arrowdown;
-  sub less backslash by uni2196;  
+  sub less backslash by uni2196;
   sub slash greater by uni2197;
   sub backslash greater by uni2198;
   sub less slash by uni2199;
-} calt;
+} ss03;
 
 feature frac { # Fractions
  # DFLT
@@ -216,16 +221,16 @@ lookup frac13 {
 
         sub [zero uni2070 uni2080]' [slash fraction]' [zero uni2070 uni2080]' [zero uni2070 uni2080]' by perthousand;
         sub [zero uni2070 uni2080]' [slash fraction]' [zero uni2070 uni2080]' by percent;
-        
+
         sub [one onesuperior uni2081]' [slash fraction]' [four uni2074 uni2084]' by onequarter;
-        sub [one onesuperior uni2081]' [slash fraction]' [two twosuperior uni2082]' by onehalf;     
+        sub [one onesuperior uni2081]' [slash fraction]' [two twosuperior uni2082]' by onehalf;
         sub [three threesuperior uni2083]' [slash fraction]' [four uni2074 uni2084]' by threequarters;
         sub [one onesuperior uni2081]' [slash fraction]' [three threesuperior uni2083]' by onethird;
         sub [two twosuperior uni2082]' [slash fraction]' [three threesuperior uni2083]' by twothirds;
         sub [one onesuperior uni2081]' [slash fraction]' [eight uni2078 uni2088]'   by oneeighth;
         sub [three threesuperior uni2083]' [slash fraction]' [eight uni2078 uni2088]'   by threeeighths;
         sub [five uni2075 uni2085]' [slash fraction]' [eight uni2078 uni2088]'  by fiveeighths;
-        sub [seven uni2077 uni2087]' [slash fraction]' [eight uni2078 uni2088]' by seveneighths;    
+        sub [seven uni2077 uni2087]' [slash fraction]' [eight uni2078 uni2088]' by seveneighths;
 } frac13;
 lookup frac14 {
     sub @frac2 @frac1' by [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
@@ -246,27 +251,26 @@ lookup frac14;
  language KAZ ; # Kazakh
 } frac;
 
-feature liga { # Standard Ligatures
- # DEFAULT
-lookup liga15 {
+feature dlig { # Discretionary Ligatures
+  lookup dlig15 {
     sub f [l l.alt] by fl;
-} liga15;
-lookup liga16 {
+  } dlig15;
+  lookup dlig16 {
     sub f [i i.alt] by fi;
-} liga16;
- script latn; # Latin
-lookup liga15;
-lookup liga16;
- language NLD ; # Dutch
- language AZE ; # Azeri
- language TRK ; # Turkish
- language MOL  exclude_dflt; # Moldavian
-lookup liga16;
- language ROM ; # Romanian
- language CAT ; # Catalan
- language TAT ; # Tatar
- language KAZ ; # Kazakh
-} liga;
+  } dlig16;
+  script latn; # Latin
+  lookup dlig15;
+  lookup dlig16;
+  language NLD ; # Dutch
+  language AZE ; # Azeri
+  language TRK ; # Turkish
+  language MOL  exclude_dflt; # Moldavian
+  lookup dlig16;
+  language ROM ; # Romanian
+  language CAT ; # Catalan
+  language TAT ; # Tatar
+  language KAZ ; # Kazakh
+} dlig;
 
 feature locl { # Localized Forms
  script latn; # Latin
