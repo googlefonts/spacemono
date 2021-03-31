@@ -246,27 +246,27 @@ lookup frac14;
  language KAZ ; # Kazakh
 } frac;
 
-feature liga { # Standard Ligatures
+feature dlig { # Discretionary Ligatures
  # DEFAULT
-lookup liga15 {
+lookup dlig15 {
     sub f [l l.alt] by fl;
-} liga15;
-lookup liga16 {
+} dlig15;
+lookup dlig16 {
     sub f [i i.alt] by fi;
-} liga16;
+} dlig16;
  script latn; # Latin
-lookup liga15;
-lookup liga16;
+lookup dlig15;
+lookup dlig16;
  language NLD ; # Dutch
  language AZE ; # Azeri
  language TRK ; # Turkish
  language MOL  exclude_dflt; # Moldavian
-lookup liga16;
+lookup dlig16;
  language ROM ; # Romanian
  language CAT ; # Catalan
  language TAT ; # Tatar
  language KAZ ; # Kazakh
-} liga;
+} dlig;
 
 feature locl { # Localized Forms
  script latn; # Latin
