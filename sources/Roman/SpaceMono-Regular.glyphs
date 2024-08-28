@@ -12,7 +12,8 @@ DisplayStrings = (
 "/.notdef H",
 "Co/two.dnom HhÓ¹⁄½²/two.dnom  dh⅛",
 "//⁄½⅓¼¹məₔ²⅛⅔¾⅜¹/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom",
-"½⅓⅔¼¾⅛⅜⅝⅞m⁰¹m²³⁴⁵⁶⁷⁸⁹"
+"½⅓⅔¼¾⅛⅜⅝⅞m⁰¹m²³⁴⁵⁶⁷⁸⁹",
+"/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom ₀₁₂₃₄₅₆₇₈₉"
 );
 customParameters = (
 {
@@ -21749,11 +21750,13 @@ unicode = 8542;
 },
 {
 glyphname = zeroinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = zero.dnom;
 }
 );
@@ -21766,11 +21769,13 @@ unicode = 8320;
 },
 {
 glyphname = oneinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = one.dnom;
 }
 );
@@ -21783,11 +21788,13 @@ unicode = 8321;
 },
 {
 glyphname = twoinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = two.dnom;
 }
 );
@@ -21800,11 +21807,13 @@ unicode = 8322;
 },
 {
 glyphname = threeinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = three.dnom;
 }
 );
@@ -21817,11 +21826,13 @@ unicode = 8323;
 },
 {
 glyphname = fourinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = four.dnom;
 }
 );
@@ -21834,11 +21845,13 @@ unicode = 8324;
 },
 {
 glyphname = fiveinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = five.dnom;
 }
 );
@@ -21851,11 +21864,13 @@ unicode = 8325;
 },
 {
 glyphname = sixinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = six.dnom;
 }
 );
@@ -21868,7 +21883,7 @@ unicode = 8326;
 },
 {
 glyphname = seveninferior;
-lastChange = "2024-08-27 21:55:50 +0000";
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
@@ -21886,11 +21901,13 @@ unicode = 8327;
 },
 {
 glyphname = eightinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = eight.dnom;
 }
 );
@@ -21903,11 +21920,13 @@ unicode = 8328;
 },
 {
 glyphname = nineinferior;
+lastChange = "2024-08-28 02:02:40 +0000";
 layers = (
 {
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
+pos = (0,-200);
 ref = nine.dnom;
 }
 );
