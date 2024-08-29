@@ -60,6 +60,10 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 0;
+},
+{
+name = isFixedPitch;
+value = 1;
 }
 );
 date = "2024-08-23 01:32:27 +0000";
@@ -85070,9 +85074,15 @@ width = 612;
 {
 color = 4;
 glyphname = i.ss02;
-lastChange = "2024-08-29 03:21:13 +0000";
+lastChange = "2024-08-29 16:43:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (329,0);
+}
+);
 background = {
 shapes = (
 {
@@ -85139,6 +85149,12 @@ nodes = (
 width = 612;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (363,0);
+}
+);
 background = {
 shapes = (
 {
@@ -85209,7 +85225,7 @@ width = 612;
 {
 color = 4;
 glyphname = idotless.ss02;
-lastChange = "2024-08-29 15:39:45 +0000";
+lastChange = "2024-08-29 16:42:51 +0000";
 layers = (
 {
 anchors = (
@@ -85877,7 +85893,7 @@ width = 612;
 {
 color = 4;
 glyphname = idotbelow.ss02;
-lastChange = "2024-08-29 02:44:02 +0000";
+lastChange = "2024-08-29 16:43:21 +0000";
 layers = (
 {
 background = {
@@ -85941,6 +85957,7 @@ shapes = (
 ref = i.ss02;
 },
 {
+pos = (23,0);
 ref = dotbelowcomb;
 }
 );
@@ -86008,6 +86025,7 @@ shapes = (
 ref = i.ss02;
 },
 {
+pos = (218,0);
 ref = dotbelowcomb;
 }
 );
@@ -86877,7 +86895,7 @@ width = 612;
 {
 color = 3;
 glyphname = jdotless.ss02;
-lastChange = "2024-08-29 15:43:25 +0000";
+lastChange = "2024-08-29 16:43:38 +0000";
 layers = (
 {
 anchors = (
@@ -86887,7 +86905,7 @@ pos = (306,-200);
 },
 {
 name = top;
-pos = (306,496);
+pos = (373,496);
 }
 );
 background = {
@@ -86946,7 +86964,7 @@ pos = (306,-200);
 },
 {
 name = top;
-pos = (306,496);
+pos = (381,496);
 }
 );
 background = {
@@ -87002,7 +87020,7 @@ width = 612;
 {
 color = 4;
 glyphname = jcircumflex.ss02;
-lastChange = "2024-08-29 15:43:38 +0000";
+lastChange = "2024-08-29 16:43:38 +0000";
 layers = (
 {
 background = {
@@ -87053,6 +87071,7 @@ shapes = (
 ref = jdotless.ss02;
 },
 {
+pos = (67,0);
 ref = circumflexcomb;
 }
 );
@@ -87103,7 +87122,7 @@ shapes = (
 ref = jdotless.ss02;
 },
 {
-pos = (86,0);
+pos = (161,0);
 ref = circumflexcomb;
 }
 );
@@ -89807,7 +89826,7 @@ width = 612;
 {
 color = 4;
 glyphname = ygrave.ss02;
-lastChange = "2024-08-29 15:01:51 +0000";
+lastChange = "2024-08-29 16:42:09 +0000";
 layers = (
 {
 background = {
@@ -89860,8 +89879,11 @@ pos = (306,0);
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
-alignment = -1;
 ref = y.ss02;
+},
+{
+pos = (138,0);
+ref = gravecomb;
 }
 );
 width = 612;
@@ -89914,8 +89936,11 @@ pos = (305,0);
 layerId = "3DF723C8-282B-4023-A5ED-FD92DD2A902E";
 shapes = (
 {
-alignment = -1;
 ref = y.ss02;
+},
+{
+pos = (120,0);
+ref = gravecomb;
 }
 );
 width = 612;
