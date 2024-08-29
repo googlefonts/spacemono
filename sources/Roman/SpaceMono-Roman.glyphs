@@ -130023,7 +130023,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2016 The Familyname Project Authors (git url)";
+value = "Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)";
 }
 );
 },
