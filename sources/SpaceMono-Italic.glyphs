@@ -182,7 +182,7 @@ tag = liga;
 fontMaster = (
 {
 axesValues = (
-100
+400
 );
 customParameters = (
 {
@@ -381,7 +381,7 @@ stemValues = (
 },
 {
 axesValues = (
-0
+700
 );
 customParameters = (
 {
@@ -552,12 +552,12 @@ name = "Bold Italic";
 stemValues = (
 78,
 120,
-0,
-0,
+108,
+174,
 130,
 140,
-0,
-0
+108,
+174
 );
 }
 );
@@ -58537,6 +58537,62 @@ ref = IJ.alt;
 width = 612;
 }
 );
+}
+);
+instances = (
+{
+axesValues = (
+400
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+1,
+5,
+9,
+3,
+2,
+2,
+0,
+2,
+4
+);
+}
+);
+instanceInterpolations = {
+"CCBD71C2-CFAF-4DB2-A010-494EF6BDA443" = 1;
+};
+name = Italic;
+},
+{
+axesValues = (
+700
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+1,
+5,
+9,
+3,
+2,
+2,
+0,
+2,
+4
+);
+}
+);
+instanceInterpolations = {
+"8275915C-4C26-4DD7-A30E-5590CD7E6050" = 1;
+};
+isBold = 1;
+name = "Bold Italic";
+weightClass = 700;
 }
 );
 metrics = (

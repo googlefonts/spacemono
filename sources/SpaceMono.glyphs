@@ -29,7 +29,6 @@ name = isFixedPitch;
 value = 1;
 },
 {
-disabled = 1;
 name = panose;
 value = (
 2,
@@ -81409,7 +81408,7 @@ width = 612;
 {
 color = 4;
 glyphname = agrave.ss02;
-lastChange = "2024-08-29 15:01:51 +0000";
+lastChange = "2025-01-15 13:18:52 +0000";
 layers = (
 {
 background = {
@@ -81492,8 +81491,11 @@ pos = (292,0);
 layerId = "F786B9CF-2625-4E74-A523-7F1B392BEC63";
 shapes = (
 {
-alignment = -1;
 ref = a.ss02;
+},
+{
+pos = (124,0);
+ref = gravecomb;
 }
 );
 width = 612;
@@ -81577,8 +81579,11 @@ pos = (289,0);
 layerId = "3DF723C8-282B-4023-A5ED-FD92DD2A902E";
 shapes = (
 {
-alignment = -1;
 ref = a.ss02;
+},
+{
+pos = (106,0);
+ref = gravecomb;
 }
 );
 width = 612;
@@ -129912,23 +129917,6 @@ instances = (
 axesValues = (
 400
 );
-customParameters = (
-{
-name = panose;
-value = (
-2,
-1,
-5,
-9,
-3,
-2,
-2,
-0,
-2,
-4
-);
-}
-);
 instanceInterpolations = {
 "F786B9CF-2625-4E74-A523-7F1B392BEC63" = 1;
 };
@@ -129937,23 +129925,6 @@ name = Regular;
 {
 axesValues = (
 700
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-1,
-5,
-9,
-3,
-2,
-2,
-0,
-2,
-4
-);
-}
 );
 instanceInterpolations = {
 "3DF723C8-282B-4023-A5ED-FD92DD2A902E" = 1;
