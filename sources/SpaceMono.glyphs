@@ -1,6 +1,9 @@
 {
 .appVersion = "3340";
 .formatVersion = 3;
+DisplayStrings = (
+"̀"
+);
 axes = (
 {
 name = Weight;
@@ -332,7 +335,7 @@ sub IJacute by IJacute.ss01;
 labels = (
 {
 language = dflt;
-value = "";
+value = ss01;
 }
 );
 notes = "name: Uppercase Alternates";
@@ -414,7 +417,7 @@ sub ytilde by ytilde.ss02;
 labels = (
 {
 language = dflt;
-value = "";
+value = ss02;
 }
 );
 notes = "name: Lowercase Alternates";
@@ -126437,7 +126440,7 @@ unicode = 775;
 },
 {
 glyphname = gravecomb;
-lastChange = "2025-01-15 13:13:39 +0000";
+lastChange = "2025-01-15 14:02:01 +0000";
 layers = (
 {
 anchors = (
@@ -126495,7 +126498,7 @@ nodes = (
 );
 }
 );
-width = 286;
+width = 612;
 }
 );
 unicode = 768;
