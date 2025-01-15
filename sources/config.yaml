@@ -3,5 +3,4 @@ sources:
   - SpaceMono-Italic.glyphs
 familyName: "Space Mono"
 buildVariable: False
-buildOTF: False
 checkCompatibility: False

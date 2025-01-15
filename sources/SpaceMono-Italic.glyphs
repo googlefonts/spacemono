@@ -29,7 +29,10 @@ name = isFixedPitch;
 value = 1;
 },
 {
-disabled = 1;
+name = "Enforce Compatibility Check";
+value = 0;
+},
+{
 name = panose;
 value = (
 2,
@@ -43,10 +46,6 @@ value = (
 2,
 4
 );
-},
-{
-name = "Enforce Compatibility Check";
-value = 0;
 }
 );
 date = "2024-08-23 01:32:27 +0000";
@@ -187,11 +186,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1120;
 },
 {
 name = typoDescender;
-value = -200;
+value = -361;
 },
 {
 name = typoLineGap;
@@ -199,11 +198,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 952;
+value = 1120;
 },
 {
 name = winDescent;
-value = 226;
+value = -361;
 },
 {
 name = underlineThickness;
@@ -255,11 +254,11 @@ value = 650;
 },
 {
 name = hheaAscender;
-value = 952;
+value = 1120;
 },
 {
 name = hheaDescender;
-value = -226;
+value = -361;
 },
 {
 name = hheaLineGap;
@@ -386,23 +385,23 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 1120;
 },
 {
 name = typoDescender;
-value = -250;
+value = -361;
 },
 {
 name = typoLineGap;
-value = 9;
+value = 0;
 },
 {
 name = winAscent;
-value = 759;
+value = 1120;
 },
 {
 name = winDescent;
-value = 259;
+value = -361;
 },
 {
 name = underlineThickness;
@@ -454,15 +453,15 @@ value = 650;
 },
 {
 name = hheaAscender;
-value = 750;
+value = 1120;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -361;
 },
 {
 name = hheaLineGap;
-value = 9;
+value = 0;
 },
 {
 name = TTFZones;
@@ -58544,23 +58543,6 @@ instances = (
 axesValues = (
 400
 );
-customParameters = (
-{
-name = panose;
-value = (
-2,
-1,
-5,
-9,
-3,
-2,
-2,
-0,
-2,
-4
-);
-}
-);
 instanceInterpolations = {
 "CCBD71C2-CFAF-4DB2-A010-494EF6BDA443" = 1;
 };
@@ -58569,23 +58551,6 @@ name = Italic;
 {
 axesValues = (
 700
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-1,
-5,
-9,
-3,
-2,
-2,
-0,
-2,
-4
-);
-}
 );
 instanceInterpolations = {
 "8275915C-4C26-4DD7-A30E-5590CD7E6050" = 1;
