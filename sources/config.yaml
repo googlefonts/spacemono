@@ -4,3 +4,4 @@ sources:
 familyName: "Space Mono"
 buildVariable: False
 checkCompatibility: False
+cleanUp: true
