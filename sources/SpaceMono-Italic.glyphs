@@ -31,21 +31,6 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 0;
-},
-{
-name = panose;
-value = (
-2,
-11,
-0,
-9,
-3,
-0,
-0,
-0,
-0,
-4
-);
 }
 );
 date = "2024-08-23 01:32:27 +0000";
@@ -512,8 +497,6 @@ pos = -200;
 },
 {
 pos = 12;
-},
-{
 }
 );
 name = Italic;
@@ -693,10 +676,6 @@ pos = -250;
 },
 {
 pos = 12;
-},
-{
-over = -12;
-pos = -200;
 }
 );
 name = "Bold Italic";
@@ -62463,6 +62442,23 @@ instances = (
 axesValues = (
 400
 );
+customParameters = (
+{
+name = panose;
+value = (
+2,
+1,
+5,
+9,
+3,
+2,
+2,
+0,
+2,
+4
+);
+}
+);
 instanceInterpolations = {
 "CCBD71C2-CFAF-4DB2-A010-494EF6BDA443" = 1;
 };
@@ -62472,6 +62468,23 @@ name = Italic;
 {
 axesValues = (
 700
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+1,
+5,
+9,
+3,
+2,
+2,
+0,
+2,
+4
+);
+}
 );
 instanceInterpolations = {
 "8275915C-4C26-4DD7-A30E-5590CD7E6050" = 1;
@@ -62500,9 +62513,6 @@ type = descender;
 },
 {
 type = "italic angle";
-},
-{
-name = "zone 1";
 }
 );
 properties = (
@@ -62553,6 +62563,10 @@ value = "Colophon Foundry & Benjamin Critton";
 {
 key = manufacturerURL;
 value = "http://www.colophon-foundry.org";
+},
+{
+key = vendorID;
+value = CF;
 }
 );
 stems = (
