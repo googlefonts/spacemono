@@ -1,0 +1,7 @@
+sources:
+  - SpaceMono.glyphs
+  - SpaceMono-Italic.glyphs
+familyName: "Space Mono"
+buildVariable: False
+checkCompatibility: False
+cleanUp: true
